@@ -1,6 +1,6 @@
 # Granny's Pies Website
 
-A responsive website for Granny's Pies featuring a homepage with the company story, featured recipes, and a detailed recipe page for their famous Lemon Meringue Pie.
+THis is a responsive website for Granny's Pies featuring a homepage with the company story, featured recipes, and a detailed recipe page for their famous Lemon Meringue Pie.
 
 ## Project Structure
 
@@ -22,8 +22,8 @@ grannys-pies/
 - Responsive design that works on desktop and mobile devices
 - Dark mode support through CSS media queries
 - Accessible design with proper heading hierarchy and descriptive alt text
-- Clean, traditional aesthetic that matches the brand
-- Detailed recipe page with ingredients and step-by-step instructions
+- Clean & traditional aesthetic that matches the brand
+- 1 Completed recipe page (Lemon Meringue Pie) with ingredients and step-by-step instructions
 
 ## Setup Instructions
 
@@ -39,7 +39,7 @@ grannys-pies/
 2. Verify that:
    - All images load properly
    - Layout is consistent across browsers
-   - Navigation links work correctly
+   - Navigation links work correctly (to Home and Lemon Meringue Pie Recipe page)
    - The story section displays image and text side by side
    - Recipe cards are arranged in a grid
 
@@ -55,15 +55,12 @@ grannys-pies/
 2. Verify that:
    - Colors switch to dark theme
    - Text remains readable
-   - Accent color maintains brand consistency
 
 ### Accessibility Testing
 1. Use a screen reader to navigate the site
 2. Verify that:
    - All images have descriptive alt text
    - Heading hierarchy makes sense
-   - Links have clear purposes
-   - Color contrast meets WCAG standards
 
 ## Browser Support
 
@@ -76,7 +73,6 @@ grannys-pies/
 
 - The website uses CSS variables for easy theme customization
 - Font fallbacks are included for better cross-browser compatibility
-- Images should be optimized before deployment
 - The recipe page includes print-friendly styling
 
-For any questions or issues, please open a GitHub issue or contact the development team.
+For any questions or issues, please open a GitHub issue or contact me at tiffanytjhin@arizona.edu.

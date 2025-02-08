@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Lemon Meringue Pie</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <!-- 
+        Header section contains the title of the dish, the image, and key recipe information like serving size and cooking time. 
+        Same as the homepage, the image includes detailed alt text to provide accessibility for visually impaired users using screen readers.
+    -->
+    <header>
+        <h1>Grandma's Lemon Meringue Pie</h1>
+        <img src="assets/lemon-meringue-pie.jpg" 
+            alt="A golden-crusted lemon meringue pie with a lemon custard, and fluffy meringue peaks toasted to a light brown" 
+            title="Granny's Homemade Lemon Meringue Pie"
+            class="recipe-image">
+        <p>Size: 9-inch pie</p>
+        <p>Servings: 8</p>
+        <p>Prep time: 30 minutes</p>
+        <p>Cook time: 40 minutes</p>
+        <p>Total time: 1 hour 10 minutes</p>
+    </header>
+
+    <!--
+        Ingredients section lists all necessary components of the recipe. Each ingredient category is clearly separated for easy reading.
+        Since the order of ingredients does not impact the preparation process, an unordered list (<ul>) is used. 
+        The strong tags help emphasize important parts of the instructions for better readability.
+    -->
+    <section class="recipe-ingredients">
+        <h2>INGREDIENTS</h2>
+            <p><strong>For the Crust:</strong></p>
+            <ul>
+                <li>1 1/4 cups all-purpose flour</li>
+                <li>1/4 teaspoon salt</li>
+                <li>1/2 cup cold butter, cubed</li>
+                <li>3-4 tablespoons ice water</li>
+            </ul>
+
+            <p><strong>For the Filling:</strong></p>
+            <ul>
+                <li>1 cup granulated sugar</li>
+                <li>2 tablespoons all-purpose flour</li>
+                <li>3 tablespoons cornstarch</li>
+                <li>1/4 teaspoon salt</li>
+                <li>1 1/2 cups water</li>
+                <li>2 lemons, juiced and zested</li>
+                <li>2 tablespoons butter</li>
+                <li>4 egg yolks, beaten</li>
+            </ul>
+
+            <p><strong>For the Meringue:</strong></p>
+            <ul>
+                <li>4 egg whites</li>
+                <li>6 tablespoons granulated sugar</li>
+                <li>1/4 teaspoon cream of tartar</li>
+            </ul>
+    </section>
+
+    <!--
+        Directions section gives step-by-step instructions to guide users through making the pie.  
+        An ordered list (<ol>) is used since the steps must be followed in sequence to get the correct result.  
+        Key steps are bolded for emphasis, and substeps, such as mixing and baking, are placed in
+        nested unordered lists (<ul>) for clarity.
+    -->
+
+    <section class="recipe-directions">
+        <h2>DIRECTIONS</h2>
+        <ol>
+            <li><strong>Make the Crust:</strong>
+                <ul>
+                    <li>In a large glass or metal bowl, combine flour and salt.</li>
+                    <li>Cut in butter until mixture resembles coarse crumbs.</li>
+                    <li>Gradually add ice water, tossing with a fork until dough forms a ball.</li>
+                    <li>Wrap in plastic wrap and refrigerate for 30 minutes.</li>
+                    <li>Roll out dough to fit a 9-inch pie plate.</li>
+                    <li>Transfer to pie plate; trim and flute edges.</li>
+                    <li>Line crust with parchment; fill with pie weights or dried beans.</li>
+                    <li>Bake at 425°F for 15 minutes.</li>
+                    <li>Remove weights and parchment; bake 5-7 minutes longer until lightly browned.</li>
+                    <li>Cool on a wire rack.</li>
+                </ul>
+            </li>
+
+            <li><strong>Preheat Oven:</strong> Reduce temperature to 350 degrees F (175 degrees C).</li>
+            <li><strong>Make Lemon Filling:</strong>
+                <ul>
+                    <li>In a medium saucepan, whisk together 1 cup sugar, flour, cornstarch, and salt.</li>
+                    <li>Stir in water, lemon juice, and lemon zest.</li>
+                    <li>Cook over medium-high heat, stirring frequently, until mixture comes to a boil.</li>
+                    <li>Stir in butter.</li>
+                    <li>Place egg yolks in a small bowl and gradually whisk in 1/2 cup of hot sugar mixture.</li>
+                    <li>Whisk egg yolk mixture back into remaining sugar mixture.</li>
+                    <li>Bring to a boil and continue to cook while stirring constantly until thick.</li>
+                    <li>Remove from heat.</li>
+                </ul>
+            </li>
+            <li><strong>Make the Meringue:</strong>
+                <ul>
+                    <li>In a large glass or metal bowl, whip egg whites until foamy.</li>
+                    <li>Add sugar gradually, and continue to whip until stiff peaks form.</li>
+                </ul>
+            </li>
+            <li><strong>Finish Pie:</strong>
+                <ul>
+                    <li>Pour hot filling into baked pastry shell.</li>
+                    <li>Spread meringue over pie, make sure to seal the edges at the crust.</li>
+                </ul>
+            </li>    
+            <li><strong>Bake the Pie:</strong> Bake in preheated oven for 10 minutes, or until meringue is golden brown.</li>
+        </ol>
+    </section>
+
+    <!-- 
+        User comments section displays feedback from people who have tried the recipe.
+        The appearence have been adjusted to match the requirements.
+        The Blockquote element was used to make the user quotes displayed as indented blocks.
+    -->
+
+    <section class="user-comments">
+        <h2>USER COMMENTS</h2>
+        <blockquote>
+            <p>This is my grandmother's recipe and it's simply the best! The lemon filling is fantastic - not too sweet, not too tart.</p>
+            <p>- Ashley Brittney</p>
+        </blockquote>
+        <blockquote>
+            <p>I've tried many lemon meringue pie recipes, but this one takes the cake (or should I say pie?). The meringue comes out perfect every time!</p>
+            <p>- Muhammad Ikhsan</p>
+        </blockquote>
+    </section>
+
+    <!-- 
+        Links section provides additional resources related to the recipe.
+        Users can find similar recipes by directing them to google search (separate tab using target="_blank") or 
+        return to the homepage through the hypertext reference (href) link. 
+    -->
+
+    <section class="links">
+        <h2>LINKS</h2>
+            <p>
+                <a href="http://www.google.com/search?q=lemon+meringue+pie+recipe&start=10" target="_blank">Search for other lemon meringue pie recipes</a>
+            </p>
+            <p>
+                <a href="index.html">Home</a>
+            </p>
+    </section>
+
+    <footer>
+        <p>Copyright © 2025 Granny's Pies. All rights reserved.</p>
+    </footer>
+</body>
+</html>

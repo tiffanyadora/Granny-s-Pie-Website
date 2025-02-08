@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granny's Pies - Homemade Goodness</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- 
+        I chose to keep the header simple with just two lines because I wanted it to be direct and be easy to read.
+        I made the heartfelt tagline to make it feel more personal, like you're visiting your own grandmother's house.
+        For accessibility, I made sure to use proper heading levels so screen reader users can easily navigate the page structure.
+    -->
+    <header>
+        <h1>Welcome to Granny's Pies</h1>
+        <p>Where Every Slice Tastes Like Home ❤︎</p>
+    </header>
+    
+    <!-- 
+        The layout of "Our story" section was quite challenging since I wanted the story image on the left side next to the text. 
+        I decided to use display 'flex' since it provides an easy way to control layout and spacing.
+        This also helps with responsiveness - on mobile, I can easily stack the image above text by using media queries.
+    -->
+    <main>
+        <section class="about-us">
+            <h2>OUR STORY</h2>
+            <div class="story-container">
+                <img src="assets/grandma-rose.jpg" 
+                    alt="Portrait of Granny Rose Thompson smiling in her kitchen while making her pies."
+                    title="Granny Thompson making her beloved pies" 
+                    class="story-image">
+                <p>Since 1952, Granny's Pies has been serving up slices of happiness using time-tested family recipes and the finest ingredients.
+                    It all began when Granny Rose Thompson started baking pies from her home kitchen in downtown Nashville and sharing her creations with neighbors and friends.
+                    What started as a humble small business, with Rose selling pies from her front porch, quickly became the talk of the town.
+                    Her secret? <strong>A blend of patience, good ol' ingredients, and the belief that every pie should be baked with love.</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- 
+            I set up the recipe grid to be responsive because I wanted it to work well on phones and tablets.
+            Each recipe card has a clear structure with the image, title, brief description, and link.
+            I made sure to add descriptive alt text for each pie photo that mentions the key visual features - 
+            like the "toasted fluffy meringue peaks" for the lemon pie. 
+            This helps screen reader users understand what the pie looks like & their speciality.
+            The other pie recipes are only placeholders; the only working link is the Lemon Meringue Pie one.
+        --> 
+
+        <section class="featured-recipes">
+            <h2>FEATURED RECIPES</h2>
+            <div class="recipe-grid">
+                <article class="recipe-item">
+                    <img src="assets/lemon-meringue-pie.jpg" 
+                        alt="A golden-crusted lemon meringue pie with a lemon custard, and fluffy meringue peaks toasted to a light brown" 
+                        title="Granny's Homemade Lemon Meringue Pie"
+                        class="recipe-image">
+                    <p><strong>Lemon Meringue Pie</strong></p>
+                    <p>A perfect balance of sweet and tart with a buttery crust, fresh lemon filling, and cloudlike meringue.</p>
+                    <p><a href="pie.html">Click here for recipe</a></p>
+                </article>
+                <article class="recipe-item">
+                    <img src="assets/classic-apple-pie.jpg" 
+                        alt="A warm classic apple pie with a buttery lattice crust and a cinnamon-spiced apple filling peeking through the gaps" 
+                        title="Granny's Classic Apple Pie"
+                        class="recipe-image">
+                    <p><strong>Classic Apple Pie</strong></p>
+                    <p>Tender, cinnamon-spiced apples nestled in a flaky, golden-brown lattice crust. A timeless favorite.</p>
+                    <p><a href="#">Click here for recipe</a></p>
+                </article>
+                <article class="recipe-item">
+                    <img src="assets/southern-pecan-pie.jpg" 
+                        alt="A decadent Southern pecan pie with a caramelized pecan topping and a chocolate filling encased in a flaky crust" 
+                        title="Granny's Southern Pecan Pie"
+                        class="recipe-image">
+                    <p><strong>Southern Pecan Pie</strong></p>
+                    <p>Rich chocolate filling topped with candied pecans, baked to perfection in our signature buttery crust.</p>
+                    <p><a href="#">Click here for recipe</a></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- I designed the footer to highlight key business information and navigation.
+        The high contrast between the text and background makes it easier to read, especially for users with visual impairments.
+        Keeping it clear and accessible ensures that everyone can find important details without any hassle.
+    -->
+
+    <footer>
+        <p>Visit us at: 102 Clover Street, Nashville, TN 37203</p>
+        <p>Open Daily: 8am - 6pm</p>
+        <p>Contact: (888) 700-2851</p>
+        <br>
+        <p>Copyright © 2025 Granny's Pies. All rights reserved.</p>
+    </footer>
+</body>
+</html>

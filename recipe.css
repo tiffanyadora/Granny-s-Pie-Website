@@ -1,0 +1,91 @@
+/* recipe.css is the main styling for the Recipe page. The styling & color scheme was used to match the given appearance 
+   requirements. The Serif font (Cambria) was chosen to improve readability for longer text passages, while all of the 
+   headings used a Sans serif font called Trebuchet MS to make it pop.
+   Heading styles (H1, H2) create clear visual hierarchy while maintaining consistency across the page.
+   The background color in the headings will provide subtle emphasis without being distracting.   
+*/
+
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Cambria, serif;
+    font-size: 11pt;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Trebuchet MS, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+.recipe-info {
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+/* Links are styled to match the heading color for consistency while remaining
+   distinct enough to be recognized as interactive elements.
+   
+   Recipe directions are formatted for clarity and easy to be followed. The numbered list
+   helps users track their progress through the recipe. 
+   
+   User comments are styled to stand out from the main content while remaining
+   readable and visually appealing. The quotes are indented with bright yellow background as requested.
+*/
+
+a {
+    color: #A4A400;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFC8;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+/* The footer styling match the styling at the Home page. */
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #404040;
+    text-align: center;
+}
+
+/* This adds a horizontal line to divide the sections within the Recipe page */
+section {
+    border-top: 1px solid #404040;
+}
+
+
+/* The size of the pie image is set to be 150px in both height and width. Border radius is added in order to make
+    the edges to be rounded. Also, margin top of 40px is used to make space between the image and previous section.*/
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    margin-top: 40px;
+}

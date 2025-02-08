@@ -1,7 +1,7 @@
 # Granny's Pies Website
 
-This is a responsive website for Granny's Pies that features a homepage with the company story, featured recipes, and a detailed recipe page for their famous Lemon Meringue Pie.
-Developed by: Tiffany Adora Tjhin
+This is a responsive website project for the Granny's Pies Company that features a homepage with the company story, featured recipes, and a detailed recipe page for their famous Lemon Meringue Pie.\
+Developed by: Tiffany Adora Tjhin\
 For Course: Web Programming (CSCV 337)
 
 ## Project Structure
